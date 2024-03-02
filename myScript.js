@@ -6,7 +6,7 @@ import { gsap } from "https://cdn.skypack.dev/gsap@3.8.0";
 import { GLTFLoader } from "https://cdn.skypack.dev/three@0.135.0/examples/jsm/loaders/GLTFLoader";
 class World {
   constructor({
-    canvas,
+    canvas, 
     width,
     height,
     cameraPosition,
