@@ -289,7 +289,7 @@ class World {
       this.sound = new THREE.Audio(listener);
       const audioLoader = new THREE.AudioLoader();
       audioLoader.load(
-        "https://assets.codepen.io/74321/ukulele.mp3",
+        "./mp3/sound.mp3",
         (buffer) => {
           this.sound.setBuffer(buffer);
           this.sound.setLoop(false);
