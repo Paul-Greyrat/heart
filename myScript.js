@@ -8,7 +8,7 @@ class World {
   constructor({
     canvas, 
     width,
-    height,
+    height, 
     cameraPosition,
     fieldOfView = 75,
     nearPlane = 0.1,
