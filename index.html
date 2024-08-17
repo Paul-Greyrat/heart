@@ -40,7 +40,7 @@
       
         vec4 viewPosition = viewMatrix * modelPosition;
         viewPosition.xyz += position * aScale * uSize * pow(a, .5) * .5;
-        gl_Position = projectionMatrix * viewPosition;
+        gl_Position = projectionMatrix * viewPosition; 
       
         vColor = aColor;
         vUv = uv;
